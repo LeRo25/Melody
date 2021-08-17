@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  background-color: #635854;
+  padding: 12px 0;
+  border-bottom: 4px solid #3596F5;
+}
+.navbar {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; /* расставили все по краям */
+  align-items: center; /* расставили элементы по центру (вертикаль) */
+}
+.navbar-menu {
+  margin: 0; /* отключаем внешние отступы */
+  padding: 0; /* отключаем внутренние отступы */
+  list-style: none; /* отключили точки списка */
+  display: flex;
+  text-align: center;
+}
+.navbar-item {
+  margin: 0 40px;
+}
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar-contacts {
+  text-align: right;
+}
+.navbar-text {
+  display: block;
+  color: #fff;
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.navbar-phone {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fff;
+}
